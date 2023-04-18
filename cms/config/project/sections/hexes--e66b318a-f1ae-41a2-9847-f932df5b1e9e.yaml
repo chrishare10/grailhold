@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: hexes
+name: Hexes
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 59be2e53-2bce-4fe3-b4e1-539271f8deea
+type: structure

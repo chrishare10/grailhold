@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    width:100vw;
+    overflow: hidden;
+    background: rgb(147, 197, 253)
+}
+
+.main {
+    width: 1000px;
+    display: flex;
+    --s: 30px; /* size  */
+    --m: 0px; /* margin */
+    --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px);
+}
+
+.hex-wrapper {
+    font-size: 0; /* disable white space between inline block element */
+    z-index: 10;
+}
+
+#map-container {
+    width: 1000px;
+    pointer-events: none;
+}
+  
+
+.hex-wrapper div {
+    width: var(--s);
+    margin: var(--m);
+    height: calc(var(--s) * 1.1547);
+    display: inline-block;
+    font-size: initial;
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    margin-bottom: calc(var(--m) - var(--s) * 0.2885);
+}
+
+.hex-wrapper::before {
+    content: "";
+    width: calc(var(--s) / 2 + var(--m));
+    float: left;
+    height: 120%;
+    shape-outside: repeating-linear-gradient(rgba(0, 0, 0, 0) 0 calc(var(--f) - 3px), #000 0 var(--f));
+}
+
+.hex {
+    background: #7E9BC8;
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.hex:hover {
+    opacity: 1;
+    transition: none;
+}
+
+.explored {
+    background: #FFBD33;
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+#details-panel-wrapper {
+    transform: translateY(100%)
+}

@@ -1,0 +1,16 @@
+isPublic: false
+name: Grailhold
+scope:
+  - 'sites.48830c8f-d2e4-4358-9a07-e909eb7fa688:read' # Grailhold
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.5da5c0cc-6782-47b8-a32e-5e2d9c70161b:read' # Fixtures
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:read' # Default
+  - 'sections.e66b318a-f1ae-41a2-9847-f932df5b1e9e:read' # Hexes
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:read' # Default
+  - 'sections.5da5c0cc-6782-47b8-a32e-5e2d9c70161b:edit' # Fixtures
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:edit' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:create' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:save' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:delete' # Default

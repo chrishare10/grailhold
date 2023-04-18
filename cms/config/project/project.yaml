@@ -1,0 +1,45 @@
+dateModified: 1680976462
+email:
+  fromEmail: chrishare.png@gmail.com
+  fromName: Grailhold
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  volumes:
+    hasUrls: true
+    name: Volumes
+    settings:
+      path: '@webroot/assets/volumes'
+    type: craft\fs\Local
+    url: '@web/assets/volumes'
+meta:
+  __names__:
+    2b1af383-2909-45d1-b416-3419b0311098: 'Image 01' # Image 01
+    5da5c0cc-6782-47b8-a32e-5e2d9c70161b: Fixtures # Fixtures
+    51adbf9d-694c-41e1-8b70-196225cb9ea3: Common # Common
+    549e3413-7828-47a8-a865-a7ceefcadb6a: Grailhold # Grailhold
+    34113f49-6187-41c5-806c-e26084f974ba: Grailhold # Grailhold
+    48830c8f-d2e4-4358-9a07-e909eb7fa688: Grailhold # Grailhold
+    203975e2-77e1-4b73-9fcc-cde90ba8d389: Default # Default
+    95588977-e3f9-4f49-9410-7eca061aff3e: 'Hex ID' # Hex ID
+    a5dec25a-a8ce-4442-ad1d-84d803d24c8c: Static # Static
+    ac4ed950-31b5-44f7-b593-097e217af77c: 'Text Area 01' # Text Area 01
+    c39963a8-70b5-41ed-8117-9aae6c4abaf0: 'Public Schema' # Public Schema
+    db17d3cf-9e50-41e6-bd0a-abecc5b2024b: Default # Default
+    e66b318a-f1ae-41a2-9847-f932df5b1e9e: Hexes # Hexes
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: Grailhold
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

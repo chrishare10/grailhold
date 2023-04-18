@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: fixtures
+name: Fixtures
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: a63ad3d5-bca4-41c4-9ef9-75e607455659
+type: structure
